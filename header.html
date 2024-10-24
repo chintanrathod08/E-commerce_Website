@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <link rel="stylesheet" href="/index.html">
+    <link rel="stylesheet" href="/CSS/index.css">
+
+
+     <!-- remix-icon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css" integrity="sha512-hH7VMMVfPgfkpYx2GazOEG6RrYM+y8cS7FzccwBTWQeyhPv01XYk0MVcuhh4EAimOELWvqKjhNwes/UsYoyN6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- font-awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+     <!-- boootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ 
+     <!-- bootstrap -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     
+     <!-- tailwind-cdn -->
+     <script src="https://cdn.tailwindcss.com"></script>
+ 
+
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+font-face{
+    font-family: myFont;
+    src: url(Font-Family/SourceSansPro-Black.otf);
+}
+        
+header{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+    background-color: #E11B23;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header .head-1{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header .head-1 .sub-head1{
+    
+    
+
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid dimgray;  
+    border-top: none;
+    border-bottom: none;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.sub-head1:hover{
+    transition: 0.5s;
+    background-color: #DF7C7C;
+    color: white;
+}
+
+header .head-1 .sub-head2{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid dimgray;  
+    border-top: none;
+    border-bottom: none;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.248); */
+}
+header .head-1 .sub-head3{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid dimgray;  
+    border-top: none;
+    border-bottom: none;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.link-1{
+    font-weight: bold;
+    
+    color: #58595B;
+    letter-spacing: 1px;
+    text-decoration: none;
+    /* z-index: 1; */
+    list-style: none;
+}
+
+.link-3{
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    /* z-index: 1; */
+    list-style: none;
+}
+
+.link-2{
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    list-style: none;
+}
+
+header .head-2{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+header .head-2 .link-4{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+header .head-2 .link-5{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+
+/* header-2............. */
+
+
+.header-2{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    position: relative;
+    box-shadow: 0px 0px 5px 1px dimgray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.header-2 .logo{
+    width: 12%;
+    height: 160%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+    /* background-color: white; */
+}   
+
+.header-2 .logo .logoimg{
+    animation: logo;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes logo{
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(-2px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+
+.header-2 nav{
+    width: 65%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-left: 7%;
+}
+
+.header-2 nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-2 nav ul li{
+    list-style: none;
+}
+
+.header-2 nav ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #58595B;
+    position: relative;
+    display: flex;
+    /* align-items: ; */
+    justify-content: center;
+}
+
+.header-2 nav ul li a::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    background-color: #E11B23;
+    width: 0%;
+    height: 2.5px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.header-2 nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-2 nav ul li a:hover{
+    color: #E11B23;
+}
+
+
+.icons{
+    width: 15%;
+    height: 100%;
+    /* border: 1px solid black;     */
+    font-size: 23px;
+    font-weight: lighter;    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons i:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="head-1">
+            <div class="sub-head1">
+                <a href="" class="link-1">WOMEN</a>
+            </div>
+            <div class="sub-head2">
+                <a href="" class="link-2">MEN</a>
+            </div>
+            <div class="sub-head3">
+                <a href="" class="link-3">KIDS</a>
+            </div>
+        </div>
+
+        <div class="head-2">
+            <a href="" class="link-4">TRACK ORDER</a>
+            <a href="" class="link-5"><i class="fa-solid fa-mobile-screen-button" style="color: white;"></i> CONTACT US</a>
+            
+        </div>
+    </header>
+
+
+    <!-- header-2........... -->
+
+
+    <div class="header-2">
+        <div class="logo">
+            <img src="Assets/logo-the-sold-store-1.png" alt="" class="logoimg">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="">TOPWEAR</a></li>
+                <li><a href="">BOTTOMWEAR</a></li>
+                <li><a href="">BESTSELLER</a></li>
+                <li><a href="">SNEAKERS</a></li>
+                <li><a href="">ACCESSORIES</a></li>
+                <li><a href="">COLLECTION</a></li>
+                <li><a href="">THEMES</a></li>
+                <li><a href="">MEMBERSHIP</a></li>
+            </ul>
+        </nav>
+
+        <div class="icons">
+           
+            <i class="ri-search-line"></i>
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="ri-shopping-cart-line"></i>
+        </div>
+
+    </div>
+    
+</body>
+</html>
